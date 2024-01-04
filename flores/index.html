@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flores Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="im/floresonline_logo.svg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<body>
+    
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand mx-3" href="index.html">
+                <img src="im/floresonline_logo.svg" alt="Logo" width="70" height="70" class="d-inline-block align-text-top">
+            </a>
+    
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Busque flores, arranjos" aria-label="Search">
+                <button class="btn btn-outline-success d-flex align-items-center" type="submit">
+                    <span class="fw-bold material-symbols-outlined">search</span>
+                </button>
+            </form>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tipo de Flores
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="rosas.html">Rosas</a></li>
+                            <li><a class="dropdown-item" href="cactos.html">Cactos</a></li>
+                            <li><a class="dropdown-item" href="orquideas.html">Orquídeas</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a class="nav-link active fs-5 fw-bold d-flex align-items-center" href="contato.html"><span class="material-symbols-outlined">account_circle</span>Contato</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 fw-bold d-flex align-items-center" aria-current="page" href="cadastrar.html"><span class="material-symbols-outlined">login</span> Cadastra-se</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link active fs-5 mx-3" aria-current="page" href="carinho.html"><span class="material-symbols-outlined">shopping_cart</span></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    
+    <!--carrosel-->
+
+    <p class="text-center text-danger fs-3 text-dark fw-bold">Flores Online, Felicidade se cultiva!</p>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="im/img1.webp" class="d-block w-100" >
+          </div>
+
+          <div class="carousel-item">
+            <img src="im/img2.webp" class="d-block w-100">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+      <!--IMAGENS-->
+
+    <br>
+    <p class="text-center text-danger fs-3 text-dark fw-bold">Flores do Campo</p>
+
+
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+    
+          <!--CARD1-->
+            <div class="col-xl-3 col-lg-3 col-md-4 d-flex align-items-stretch">
+                <div class="card text-center bg-light">
+                  <a href="#">
+                      <img src="im/con1.webp" class="card-img-top">
+                  </a>
+        
+                  <div class="card-body">
+                      <p class="card-text fw-bold">Buquê de Flores do Campo Coloridas</p>
+                  </div>
+        
+                  <div class="card-footer">
+                      <form class="d-block">
+                      R$81,20
+                        <a href="bu.html" class="btn btn-secondary mx-3"><span class="material-symbols-outlined d-flex align-items-center">add</span></a>
+                      </form>
+                  </div>
+                </div>
+            </div>
+    
+          <!--CARD2-->
+          <div class="col-xl-3 col-lg-3 col-md-4 d-flex align-items-stretch mx-3">
+            <div class="card text-center bg-light">
+              <a href="#">
+                <img src="im/con2.webp" class="card-img-top">
+              </a>
+    
+              <div class="card-body">
+                <p class="card-text fw-bold">Buquê Colorido de Rosas, Alstroemérias, Gérberas e Lírios</p>
+              </div>
+    
+              <div class="card-footer">
+                <form class="d-block">
+                R$159,48
+                <a href="bu.html" class="btn btn-secondary mx-3"><span class="material-symbols-outlined d-flex align-items-center">add</span></a>
+                </form>
+              </div>
+            </div>
+          </div>
+    
+          <!--CARD3-->
+          <div class="col-xl-3 col-lg-3 col-md-4 d-flex align-items-stretch mx-3">
+            <div class="card text-center bg-light">
+              <a href="produto.html">
+                <img src="im/con3.webp" class="card-img-top">
+              </a>
+    
+              <div class="card-body">
+                <p class="card-text fw-bold">Arranjo de Flores Coloridas em Vaso Para Entrega</p>
+              </div>
+    
+              <div class="card-footer">
+                <form class="d-block">
+                    R$149,46
+                    <a href="bu.html" class="btn btn-secondary mx-3"><span class="material-symbols-outlined d-flex align-items-center">add</span></a>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <br>
+    <p class="text-center text-danger fs-3 text-dark fw-bold">Buquês de Flores</p>
+
+
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+    
+          <!--CARD1-->
+            <div class="col-xl-3 col-lg-3 col-md-4 d-flex align-items-stretch">
+                <div class="card text-center bg-light">
+                <a href="#">
+                    <img src="im/bu1.webp" class="card-img-top">
+                </a>
+        
+                <div class="card-body">
+                    <p class="card-text fw-bold">Buquê com 6 Rosas Colombianas Vermelhas</p>
+                </div>
+        
+                <div class="card-footer">
+                    <form class="d-block">
+                        R$139,90
+                        <a href="bu.html" class="btn btn-secondary mx-3"><span class="material-symbols-outlined d-flex align-items-center">add</span></a>
+                    </form>
+                </div>
+                </div>
+            </div>
+    
+          <!--CARD2-->
+          <div class="col-xl-3 col-lg-3 col-md-4 d-flex align-items-stretch mx-3">
+            <div class="card text-center bg-light">
+              <a href="#">
+                <img src="im/bu2.webp" class="card-img-top">
+              </a>
+    
+              <div class="card-body">
+                <p class="card-text fw-bold">Cesta de Presente com Buquê de Margaridas e Chocolate</p>
+              </div>
+    
+              <div class="card-footer">
+                <form class="d-block">
+                    R$181,63
+                    <a href="bu.html" class="btn btn-secondary mx-3"><span class="material-symbols-outlined d-flex align-items-center">add</span></a>
+                </form>
+              </div>
+            </div>
+          </div>
+    
+          <!--CARD3-->
+          <div class="col-xl-3 col-lg-3 col-md-4 d-flex align-items-stretch mx-3">
+            <div class="card text-center bg-light">
+              <a href="produto.html">
+                <img src="im/bu3.webp" class="card-img-top">
+              </a>
+    
+              <div class="card-body">
+                <p class="card-text fw-bold">Buquê de 30 Rosas Coloridas Para Entrega</p>
+              </div>
+    
+              <div class="card-footer">
+                <form class="d-block">
+                    R$284,86
+                    <a href="bu.html" class="btn btn-secondary mx-3"><span class="material-symbols-outlined d-flex align-items-center">add</span></a>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <!--RODAPE-->
+    <footer class="bg-light text-light text-center p-2">
+        <br>
+        <img src="im/rodape.svg" width="70" height="70" class="d-inline-block align-text-top">
+        <br>
+        <br>
+        <a class="dropdown-item text-dark" href="#">Como Funciona</a>
+        <a class="dropdown-item text-dark" href="#">Minha Conta</a>
+        <a class="dropdown-item text-dark" href="#">Ajuda</a>
+        <a class="dropdown-item text-dark" href="#">Contato</a>
+        <a class="dropdown-item text-dark" href="#">Política de Privacidade</a>
+        <a class="dropdown-item text-dark" href="#">Política de Cookies</a>
+        <hr class="my-4 text-dark">
+        <a class="dropdown-item text-dark" href="#">Twitter</a>
+        <a class="dropdown-item text-dark" href="#">Instagram</a>
+        <a class="dropdown-item text-dark" href="#">WhatsApp</a>
+        <br>
+        <p class="text-dark"> &copy; 2024 </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
